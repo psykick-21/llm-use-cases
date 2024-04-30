@@ -5,3 +5,4 @@ langchain-groq
 streamlit
 python-dotenv
 streamlit-option-menu
+huggingface_hub
