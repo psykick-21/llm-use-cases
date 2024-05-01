@@ -2,7 +2,15 @@ langchain-openai
 langchain-community
 langchain-core
 langchain-groq
+langchain
+langchainhub
 streamlit
 python-dotenv
 streamlit-option-menu
 huggingface_hub
+fastapi
+langserve
+uvicorn
+arxiv
+wikipedia
+faiss-cpu

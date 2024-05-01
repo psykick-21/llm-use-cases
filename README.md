@@ -1,6 +1,7 @@
 # LLM apps
 
-I have created multiple utility applications on **Streamlit** using LLMs with the help of frameworks like Langchain, HuggingFace, etc. A brief of each of the service along with the components used to build it are described below.
+I have created multiple utility applications on **Streamlit** using LLMs with the help of **Langchain** framework. A brief of each of the service along with the components used to build it are described below.<br>
+**Langsmith** has been used to track all the interactions with the app.
 
 ## Question-Answering
 This application provides an interface for the user to ask a question and get back a response. An option is provided to choose the method of selecting the preferred LLM. The current options are:
