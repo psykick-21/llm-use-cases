@@ -1,6 +1,6 @@
 # LLM apps
 
-I have created multiple utility applications on **Streamlit** using LLMs with the help of **Langchain** framework. A brief of each of the service along with the components used to build it are described below.<br>
+I have created multiple utility applications on **Streamlit** using **LLMs** with the help of **Langchain** framework. A brief of each of the service along with the components used to build it are described below.<br>
 **Langsmith** has been used to track all the interactions with the app.
 
 ## Question-Answering
@@ -17,8 +17,8 @@ This application provides an interface for the user to essentially ask a questio
 1. **Wikipedia**
 2. **Langsmith**
 3. **Arxiv**<be>
-For these websites, by default, the model is selected as OpenAI (gpt-3.5-turbo).<br>
-To develop a specialization for the model for a particular website, specialized Langchain Tools and Agents have been created.
+For these websites, by default, the model is selected as **OpenAI (gpt-3.5-turbo)**.<br>
+To develop a specialization for the model for a particular website, specialized Langchain **Tools** and **Agents** have been created.
 
 When given a query, the agent uses the provided tool to look up for the information related to the query and generates the context without any human intervention. Based on the generated context, the agent uses the power of LLM and returns a response.<br>
 This is the power of AI Agents. They do not require any human intervention, and can perform all the steps on their own if defined properly, and if the problem is within the scope of the tools.
