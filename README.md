@@ -16,7 +16,8 @@ Prompt templates, output parsers and chains from Langchain are used to create an
 This application provides an interface for the user to essentially ask a question to a website and get a response. An option is provided to select which website to chat with. Currently, these websites are supported.
 1. **Wikipedia**
 2. **Langsmith**
-3. **Arxiv**<br>
+3. **Arxiv**
+
 For these websites, by default, the model is selected as **OpenAI (gpt-3.5-turbo)**.<br>
 To develop a specialization for the model for a particular website, specialized Langchain **Tools** and **Agents** have been created.
 
