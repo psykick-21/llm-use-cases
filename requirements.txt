@@ -14,3 +14,6 @@ uvicorn
 arxiv
 wikipedia
 faiss-cpu
+transformers
+pypdf2
+chromadb
