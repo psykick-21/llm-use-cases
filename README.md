@@ -24,6 +24,12 @@ To develop a specialization for the model for a particular website, specialized 
 When given a query, the agent uses the provided tool to look up for the information related to the query and generates the context without any human intervention. Based on the generated context, the agent uses the power of LLM and returns a response.<br>
 This is the power of AI Agents. They do not require any human intervention, and can perform all the steps on their own if defined properly, and if the problem is within the scope of the tools.
 
+## RAG App
+This application provides capability for the user to upload multiple documents and chat with them.<br>
+It is developed by chaining **PyPDFLoader**, **RecursiveCharacterTextSplitter**, **Chroma** (vector database) using **Retrievers**<br>
+
+When the documents are uploaded, their content is read by the PyPDFLoader, which is then splitted into chunks by RecursiveCharacterTextSplitter. The split documents (or chunks) are passed through an Embedding model to be stored into a vector database (Chroma). When the user enter a query/question, the app performs a similarity search across all the chunks and returns the most similar ones as a context for the LLM. The LLM then responds to the question based on the context.
+
 ---
 
 This project is still in development. More functionalities will be added in the future.
